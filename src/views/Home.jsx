@@ -17,7 +17,7 @@ const menuItem = [
 
 const Home = () => {
   return (
-    <div className="yellow">
+    <div className="red">
       <Tabs>
         <div className="header">
           <TabList className=" icon-menu revealator-slideup revealator-once revealator-delay1">

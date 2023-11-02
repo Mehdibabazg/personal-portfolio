@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import ScrollToTop from "./components/ScrollToTop";
 import AllRoutes from "./router/AllRoutes";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -21,9 +22,9 @@ function App() {
         innerScale={0.7}
         outerScale={1.2}
       />
+      <ScrollToTop />
       <AllRoutes />
       {/* End contact */}
-      {/* Same as */}
     </>
   );
 }

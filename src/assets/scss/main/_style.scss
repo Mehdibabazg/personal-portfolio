@@ -842,18 +842,14 @@ html {
   
   /* Skills */
   
-  .about .c100 {
-    float: none !important;
-    margin: 0 auto;
-    background-color: #252525;
+  .about .CircularProgressbar .CircularProgressbar-trail {
+    stroke: #252525;
   }
-  
-  .about .c100 > span {
-    color: #fff;
+  .about  .CircularProgressbar .CircularProgressbar-path {
+    stroke: var(--main-primary-color);
   }
-  
-  .about .c100:after {
-    background-color: #111;
+  .about .CircularProgressbar .CircularProgressbar-text {
+    fill: #fff;
   }
   
   /*** Portfolio ***/
