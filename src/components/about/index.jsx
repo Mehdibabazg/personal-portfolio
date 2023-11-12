@@ -11,7 +11,7 @@ const index = () => {
   return (
     <section className="main-content">
       <div className="container">
-        <div className="row">
+        <div className="row align-items-center">
           {/* Personal Info Starts */}
 
           <div className="col-xl-6 col-lg-5 col-12">

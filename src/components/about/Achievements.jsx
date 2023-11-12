@@ -2,15 +2,13 @@ import React from 'react';
 import CountUp from 'react-countup';
 
 const achievementsContent = [
-  { value: "12", subTitle1: "years of", subTitle2: "experience" },
-  { value: "97", subTitle1: "completed", subTitle2: "projects" },
-  { value: "81", subTitle1: "Happy", subTitle2: "customers" },
-  { value: "53", subTitle1: "awards", subTitle2: "won" },
+  { value: "4", subTitle1: "years of", subTitle2: "experience" },
+  { value: "10", subTitle1: "completed", subTitle2: "projects" },
 ];
 
 const Achievements = () => {
   return (
-    <div className="row">
+    <div className="row align-items-center">
       {achievementsContent.map((val, i) => (
         <div className="col-6" key={i}>
           <div className="box-stats with-margin">
