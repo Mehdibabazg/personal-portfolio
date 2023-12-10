@@ -8,7 +8,7 @@ const achievementsContent = [
 
 const Achievements = () => {
   return (
-    <div className="row align-items-center">
+    <div className="row">
       {achievementsContent.map((val, i) => (
         <div className="col-6" key={i}>
           <div className="box-stats with-margin">
