@@ -5,22 +5,19 @@ const experienceContent = [
     period: "Mars 2023 - Present",
     position: "Web Developer",
     companyName: "Weshore",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    details: `Integration of customer specific requests after delivery, Correction of any bugs, Website Optimization`,
   },
   {
     period: "Mai 2022 - Mars 2023",
     position: "WordPress Integrator",
     companyName: "Weshore",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    details: `Design of websites in Wordpress, Implementation of website using the developed theme, Tests of the functionalities set up`,
   },
   {
     period: "September 2021 - Mai 2022",
     position: "Web developer (Intern)",
     companyName: "Massartech",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    details: `Develop a web application for Stock Management, Payments, Cash, Sales, Invoices, BL.. For a sales store also a web application for Caisse Management Web Application for a Butcher`,
   },
 ];
 

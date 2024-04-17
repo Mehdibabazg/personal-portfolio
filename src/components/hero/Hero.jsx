@@ -8,7 +8,7 @@ const Hero = () => {
     heroMobileImage: heroImgMobile,
     heroTitleName: "BABA ELMEHDI",
     heroDesignation: "Web developer",
-    heroDescriptions: `I'm a Moroccan based web developer & front‑end developer focused on
+    heroDescriptions: `I'm a Moroccan based web developer focused on
     crafting clean & user‑friendly experiences, I am passionate about
     building excellent software that improves the lives of those
     around me.`,
