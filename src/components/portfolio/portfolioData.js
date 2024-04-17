@@ -14,7 +14,7 @@ const PortfolioData = [
             client: "Envato",
             languages: "HTML, CSS, Javascript",
             preview: "www.envato.com",
-            link: "https://www.envato.com/",
+            link: "https",
             },
         ],
     },

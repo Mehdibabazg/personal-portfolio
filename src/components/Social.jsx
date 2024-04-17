@@ -3,14 +3,20 @@ import React from "react";
 const SocialShare = [
   {
     iconName: "fa fa-facebook",
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/mido.baba.11",
   },
-  { iconName: "fa fa-twitter", link: "https://twitter.com/" },
+  { 
+    iconName: "fa fa-linkedin", 
+    link: "https://www.linkedin.com/in/elmehdi-baba-b7a411198/" 
+  },
   {
-    iconName: "fa fa-youtube",
-    link: "https://www.youtube.com/",
+    iconName: "fa fa-instagram",
+    link: "https://www.instagram.com/elmehdi_baba/",
   },
-  { iconName: "fa fa-dribbble", link: "https://dribbble.com/" },
+  { 
+    iconName: "fa fa-github", 
+    link: "https://github.com/Mehdibabazg" 
+  },
 ];
 
 const Social = () => {
