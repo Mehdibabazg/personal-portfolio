@@ -59,7 +59,8 @@ const Portfolio = () => {
                 {PortfolioData.filter((item) => 
                   item.tag.includes("react")
                 ).map((item) => {
-                  const { id, type, image, delayAnimation } = item;
+                  const { id, type, delayAnimation } = item;
+                  const image = item.images[0];
                   return (
                     <div
                       key={id}
@@ -82,12 +83,12 @@ const Portfolio = () => {
             </TabPanel>
 
             <TabPanel>
-              {/*
               <div className="tab-container">
                 {PortfolioData.filter((item) => 
                   item.tag.includes("wordpress")
                 ).map((item) => {
-                  const { id, type, image, delayAnimation } = item;
+                  const { id, type, delayAnimation } = item;
+                  const image = item.images[0];
                   return (
                     <div
                       key={id}
@@ -107,17 +108,15 @@ const Portfolio = () => {
                   );
                 })}
               </div>
-*/}
-
             </TabPanel>
 
              <TabPanel> 
-              {/*
               <div className="tab-container">
                 {PortfolioData.filter((item) => 
                   item.tag.includes("web applicaton")
                 ).map((item) => {
-                  const { id, type, image, delayAnimation } = item;
+                  const { id, type, delayAnimation } = item;
+                  const image = item.images[0];
                   return (
                     <div
                       key={id}
@@ -137,7 +136,6 @@ const Portfolio = () => {
                   );
                 })}
               </div>
-              */}
             </TabPanel>
           </div>
         </Tabs>
