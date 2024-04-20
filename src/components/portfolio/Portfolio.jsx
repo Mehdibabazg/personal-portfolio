@@ -31,8 +31,8 @@ const Portfolio = () => {
             <TabPanel>
               <div className="tab-container">
                 {PortfolioData.map((item) => {
-                  const { id, type, image, delayAnimation } = item;
-
+                  const { id, type, delayAnimation } = item;
+                  const image = item.images[0];
                   return (
                     <div
                       key={item}
@@ -82,6 +82,7 @@ const Portfolio = () => {
             </TabPanel>
 
             <TabPanel>
+              {/*
               <div className="tab-container">
                 {PortfolioData.filter((item) => 
                   item.tag.includes("wordpress")
@@ -106,9 +107,12 @@ const Portfolio = () => {
                   );
                 })}
               </div>
+*/}
+
             </TabPanel>
 
-            <TabPanel>
+             <TabPanel> 
+              {/*
               <div className="tab-container">
                 {PortfolioData.filter((item) => 
                   item.tag.includes("web applicaton")
@@ -133,6 +137,7 @@ const Portfolio = () => {
                   );
                 })}
               </div>
+              */}
             </TabPanel>
           </div>
         </Tabs>

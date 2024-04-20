@@ -67,15 +67,15 @@ const Modal = ({ isOpen, closeModal, data }) => {
                         </div>
                         <figure className="modal__img">
                             <Slider {...settings}>
-                                <div>
-                                    <img src={data.image} alt="portfolio project demo" />
-                                </div>
-                                <div>
-                                    <img src={data.image} alt="portfolio project demo" />
-                                </div>
-                                <div>
-                                    <img src={data.image} alt="portfolio project demo" />
-                                </div>
+                            {data.images.map((item, index) => {
+                                console.log(item);
+                                return (
+                                    <div key={index}>
+                                        <img src={item} alt={index} />
+                                    </div>
+                                );
+                            })}
+                            
                             </Slider>
                         </figure>
                         <button 

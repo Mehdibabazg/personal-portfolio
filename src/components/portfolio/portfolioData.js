@@ -1,43 +1,15 @@
-import Image from "../../assets/img/portfolio/gestion-application/mockup.jpg";
+import Image2 from "../../assets/img/portfolio/gestion-application/cheques-issued-page.png";
+import Image1 from "../../assets/img/portfolio/gestion-application/Login-page.png";
+import Image3 from "../../assets/img/portfolio/gestion-application/Paiement-page.png";
+import Image4 from "../../assets/img/portfolio/gestion-application/Product-page.png";
+import Image5 from "../../assets/img/portfolio/gestion-application/Rechreche-detaille-page.png";
 import { v4 as uuidv4 } from 'uuid';
 
 const PortfolioData = [
     {
         id: uuidv4(),
-        type: "React",
-        image: Image,
-        tag:["react"],
-        delayAnimation: "0",
-        modalDetails: [
-            {
-            project: "Website",
-            client: "Envato",
-            languages: "HTML, CSS, Javascript",
-            preview: "www.envato.com",
-            link: "https",
-            },
-        ],
-    },
-    {
-        id: uuidv4(),
-        type: "Wordpress",
-        image: Image,
-        tag:["wordpress"],
-        delayAnimation: "100",
-        modalDetails: [
-            {
-            project: "Website",
-            client: "Envato",
-            languages: "HTML, CSS, Javascript",
-            preview: "www.envato.com",
-            link: "https://www.envato.com/",
-            },
-        ],
-    },
-    {
-        id: uuidv4(),
         type: "web application",
-        image: Image,
+        images: [Image1, Image2, Image3, Image4, Image5],
         tag:["web applicaton"],
         delayAnimation: "200",
         modalDetails: [
