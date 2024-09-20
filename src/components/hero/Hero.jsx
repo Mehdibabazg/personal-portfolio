@@ -8,10 +8,7 @@ const Hero = () => {
     heroMobileImage: heroImgMobile,
     heroTitleName: "BABA ELMEHDI",
     heroDesignation: "Web developer",
-    heroDescriptions: `I'm a Moroccan based web developer focused on
-    crafting clean & user‑friendly experiences, I am passionate about
-    building excellent software that improves the lives of those
-    around me.`,
+    heroDescriptions: `As a full stack developer, I specialize in creating dynamic and custom websites and applications using modern technologies such as React.js, Next.js, PHP, Laravel, and WordPress. With a broad experience ranging from freelancing to collaborating with companies across various industries, I bring versatility and technical expertise to every project. I focus on delivering high-quality, responsive, and accessible solutions that meet my clients' unique needs, ensuring clean, efficient code and visually appealing designs that perform seamlessly across platforms.`,
     heroBtn: "more about me",
   };
   return (
