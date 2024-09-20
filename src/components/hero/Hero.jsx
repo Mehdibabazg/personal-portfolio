@@ -8,7 +8,7 @@ const Hero = () => {
     heroMobileImage: heroImgMobile,
     heroTitleName: "BABA ELMEHDI",
     heroDesignation: "Web developer",
-    heroDescriptions: `As a full stack developer, I specialize in creating dynamic and custom websites and applications using modern technologies such as React.js, Next.js, PHP, Laravel, and WordPress. With a broad experience ranging from freelancing to collaborating with companies across various industries, I bring versatility and technical expertise to every project. I focus on delivering high-quality, responsive, and accessible solutions that meet my clients' unique needs, ensuring clean, efficient code and visually appealing designs that perform seamlessly across platforms.`,
+    heroDescriptions: `I'am a web developer specializing in custom websites and applications with React.js, Next.js, PHP, Laravel, and WordPress. My experience spans freelancing and working with companies, bringing versatility to every project. I deliver high-quality, responsive solutions with clean code, ensuring seamless user experiences.`,
     heroBtn: "more about me",
   };
   return (
