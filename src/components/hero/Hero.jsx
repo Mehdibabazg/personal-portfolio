@@ -2,7 +2,7 @@ import React from 'react';
 import heroImg from "../../assets/img/hero/dark.webp";
 import heroImgMobile from "../../assets/img/hero/dark.webp";
 
-const Hero = () => {
+const Hero = ({ setTabIndex }) => {
   const heroContent = {
     heroImage: heroImg,
     heroMobileImage: heroImgMobile,
@@ -34,7 +34,7 @@ const Hero = () => {
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
-            <button className="button">
+            <button className="button" onClick={() => setTabIndex(1)}>
               <span className="button-text">{heroContent.heroBtn}</span>
               <span className="button-icon fa fa-arrow-right"></span>
             </button>

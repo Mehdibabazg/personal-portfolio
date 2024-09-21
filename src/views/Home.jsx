@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Hero from "../components/hero/Hero";
 import Index from "../components/about/index";
@@ -16,9 +16,11 @@ const menuItem = [
 ];
 
 const Home = () => {
+  const [tabIndex, setTabIndex] = useState(0);
+
   return (
     <div className="red">
-      <Tabs>
+      <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
         <div className="header">
           <TabList className=" icon-menu revealator-slideup revealator-once revealator-delay1">
             {menuItem.map((item, i) => (
@@ -39,7 +41,7 @@ const Home = () => {
               data-aos-duration="1200"
             >
               <div className="color-block d-none d-lg-block"></div>
-              <Hero />
+              <Hero setTabIndex={setTabIndex} />
             </div>
           </TabPanel>
           {/* Hero Content Ends */}

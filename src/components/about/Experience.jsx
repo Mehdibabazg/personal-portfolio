@@ -3,21 +3,21 @@ import React from 'react'
 const experienceContent = [
   {
     period: "Mars 2023 - Present",
-    position: "Web Developer",
-    companyName: "Weshore",
-    details: `Integration of customer specific requests after delivery, Correction of any bugs, Website Optimization`,
+    position: "Web Developer (Maintenance Team)",
+    companyName: "Weshore Agency",
+    details: `Integrated client-specific requests post-delivery, resolving bugs, implementing new features, and optimizing website performance, security, and mobile responsiveness. Maintained and monitored websites post-launch, ensuring uptime and addressing technical issues while improving SEO and loading times.`,
   },
   {
     period: "Mai 2022 - Mars 2023",
-    position: "WordPress Integrator",
-    companyName: "Weshore",
-    details: `Design of websites in Wordpress, Implementation of website using the developed theme, Tests of the functionalities set up`,
+    position: "WordPress Developer & Integrator (Production Team)",
+    companyName: "Weshore Agency",
+    details: `Designed, developed, and customized responsive WordPress websites, ensuring seamless theme integration with plugins and features. Collaborated with designers to meet client expectations, conducted cross-browser/device testing, and managed deployments with minimal downtime. Adhered to best practices in SEO, security, and performance optimization for high-quality, scalable sites.`,
   },
   {
     period: "September 2021 - Mai 2022",
     position: "Web developer (Intern)",
     companyName: "Massartech",
-    details: `Develop a web application for Stock Management, Payments, Cash, Sales, Invoices, BL.. For a sales store also a web application for Caisse Management Web Application for a Butcher`,
+    details: `- Web Application for Store Management: Developed a web app with a dashboard for stats, sales tracking, inventory, and payment processing using HTML, CSS, PHP, JavaScript, Bootstrap, jQuery, and MySQL (MVC architecture).\n- Electronics Store Website: Built a professional e-commerce website with WordPress, enhancing online presence and customer experience.\n- Construction Company Website: Designed and developed a user-friendly website showcasing services and portfolio.`,
   },
 ];
 
@@ -34,7 +34,7 @@ const Experience = () => {
             {val.position}
             <span className="place open sans font">{val.companyName}</span>
           </h5>
-          <p className="open sans font">{val.details}</p>
+          <p className="open sans font" dangerouslySetInnerHTML={{ __html: val.details.replace(/\n/g, "<br/>") }}></p>
         </li>
       ))}
     </ul>

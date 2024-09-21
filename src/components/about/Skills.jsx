@@ -7,12 +7,14 @@ const skillsContent = [
   { skillPercent: "80", skillName: "JAVASCRIPT" },
   { skillPercent: "90", skillName: "CSS" },
   { skillPercent: "70", skillName: "PHP" },
-  { skillPercent: "95", skillName: "WORDPRESS" },
-  { skillPercent: "70", skillName: "CODEIGNITER" },
-  { skillPercent: "95", skillName: "BOOTSTRAP" },
-  { skillPercent: "80", skillName: "MUI MATERIAL" },
-  { skillPercent: "75", skillName: "JQUERY" },
   { skillPercent: "70", skillName: "REACT" },
+  { skillPercent: "60", skillName: "Next.js" },
+  { skillPercent: "50", skillName: "LARAVEL" },
+  { skillPercent: "95", skillName: "WORDPRESS" },
+  { skillPercent: "75", skillName: "JQUERY" },
+  { skillPercent: "95", skillName: "BOOTSTRAP" },
+  { skillPercent: "80", skillName: "TAILWIND CSS" },
+  { skillPercent: "80", skillName: "MUI MATERIAL" },
 ];
 
 const Skills = () => {
